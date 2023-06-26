@@ -1,0 +1,2066 @@
+{
+  "qHyperCubeDef": {
+    "qDimensions": [
+      {
+        "qDef": {
+          "qGrouping": "N",
+          "qFieldDefs": [
+            "=Empresa "
+          ],
+          "qFieldLabels": [
+            ""
+          ],
+          "qSortCriterias": [
+            {
+              "qSortByAscii": -1,
+              "qSortByLoadOrder": 1,
+              "qExpression": {}
+            }
+          ],
+          "qNumberPresentations": [],
+          "qActiveField": 0,
+          "autoSort": false,
+          "cId": "YJwVNYL",
+          "othersLabel": "Outros",
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qNullSuppression": true,
+        "qOtherTotalSpec": {
+          "qOtherMode": "OTHER_OFF",
+          "qOtherCounted": {},
+          "qOtherLimit": {},
+          "qOtherLimitMode": "OTHER_GT_LIMIT",
+          "qForceBadValueKeeping": true,
+          "qApplyEvenWhenPossiblyWrongResult": true,
+          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+          "qTotalMode": "TOTAL_EXPR",
+          "qReferencedExpression": {}
+        },
+        "qOtherLabel": {},
+        "qTotalLabel": {
+          "qv": "Total"
+        },
+        "qCalcCond": {},
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='center'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "othersLabel": "Outros"
+      },
+      {
+        "qDef": {
+          "qGrouping": "N",
+          "qFieldDefs": [
+            "=If(NEGOCIO <> 'DIF. 1ª',   If(NEGOCIO = 'Intercia Argentina', 'InCia',QUALIDADE ))"
+          ],
+          "qFieldLabels": [
+            ""
+          ],
+          "qSortCriterias": [
+            {
+              "qSortByAscii": 1,
+              "qSortByLoadOrder": 1,
+              "qExpression": {}
+            }
+          ],
+          "qNumberPresentations": [],
+          "qActiveField": 0,
+          "autoSort": false,
+          "cId": "QLNaC",
+          "othersLabel": "Outros",
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qNullSuppression": true,
+        "qOtherTotalSpec": {
+          "qOtherMode": "OTHER_OFF",
+          "qOtherCounted": {},
+          "qOtherLimit": {},
+          "qOtherLimitMode": "OTHER_GT_LIMIT",
+          "qForceBadValueKeeping": true,
+          "qApplyEvenWhenPossiblyWrongResult": true,
+          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+          "qTotalMode": "TOTAL_EXPR",
+          "qReferencedExpression": {}
+        },
+        "qOtherLabel": {},
+        "qTotalLabel": {},
+        "qCalcCond": {},
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='center'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "othersLabel": "Outros"
+      },
+      {
+        "qDef": {
+          "qGrouping": "N",
+          "qFieldDefs": [
+            "=If(CUSTOMER_GROUP = 'GRAFA', 'ME',CUSTOMER_GROUP)"
+          ],
+          "qFieldLabels": [
+            ""
+          ],
+          "qSortCriterias": [
+            {
+              "qSortByAscii": -1,
+              "qSortByLoadOrder": 1,
+              "qExpression": {}
+            }
+          ],
+          "qNumberPresentations": [],
+          "qActiveField": 0,
+          "autoSort": false,
+          "cId": "tbvvZKj",
+          "othersLabel": "Outros",
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qNullSuppression": true,
+        "qOtherTotalSpec": {
+          "qOtherMode": "OTHER_OFF",
+          "qOtherCounted": {},
+          "qOtherLimit": {},
+          "qOtherLimitMode": "OTHER_GT_LIMIT",
+          "qForceBadValueKeeping": true,
+          "qApplyEvenWhenPossiblyWrongResult": true,
+          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+          "qTotalMode": "TOTAL_EXPR",
+          "qReferencedExpression": {}
+        },
+        "qOtherLabel": {},
+        "qTotalLabel": {},
+        "qCalcCond": {},
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='center'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "othersLabel": "Outros"
+      },
+      {
+        "qDef": {
+          "qGrouping": "N",
+          "qFieldDefs": [
+            "=IF(NEGOCIO <> 'DIF. 1ª',NEGOCIO,'A2')\r\n"
+          ],
+          "qFieldLabels": [
+            ""
+          ],
+          "qSortCriterias": [
+            {
+              "qSortByNumeric": 1,
+              "qSortByAscii": 1,
+              "qSortByLoadOrder": 1,
+              "qExpression": {
+                "qv": "only(SEQUENCIA)"
+              }
+            }
+          ],
+          "qNumberPresentations": [],
+          "qActiveField": 0,
+          "qLabelExpression": "=''",
+          "autoSort": false,
+          "cId": "mNAFep",
+          "othersLabel": "Outros",
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qNullSuppression": true,
+        "qOtherTotalSpec": {
+          "qOtherMode": "OTHER_OFF",
+          "qOtherCounted": {},
+          "qOtherLimit": {},
+          "qOtherLimitMode": "OTHER_GT_LIMIT",
+          "qForceBadValueKeeping": true,
+          "qApplyEvenWhenPossiblyWrongResult": true,
+          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+          "qTotalMode": "TOTAL_EXPR",
+          "qReferencedExpression": {}
+        },
+        "qOtherLabel": {},
+        "qTotalLabel": {
+          "qv": "test"
+        },
+        "qCalcCond": {},
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0), RGB(223,223,223))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=IF(Dimensionality() =3,RGB(230,230,230), RGB(223,223,223))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='center'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "othersLabel": "Outros"
+      },
+      {
+        "qDef": {
+          "qGrouping": "N",
+          "qFieldDefs": [
+            "Tipo_Qualidade_Descricao"
+          ],
+          "qFieldLabels": [
+            "Negocio"
+          ],
+          "qSortCriterias": [
+            {
+              "qSortByNumeric": 1,
+              "qSortByAscii": 1,
+              "qSortByLoadOrder": 1,
+              "qExpression": {}
+            }
+          ],
+          "qNumberPresentations": [],
+          "qActiveField": 0,
+          "autoSort": true,
+          "cId": "EXpHgVs",
+          "othersLabel": "Outros",
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qOtherTotalSpec": {
+          "qOtherMode": "OTHER_OFF",
+          "qOtherCounted": {},
+          "qOtherLimit": {},
+          "qOtherLimitMode": "OTHER_GT_LIMIT",
+          "qForceBadValueKeeping": true,
+          "qApplyEvenWhenPossiblyWrongResult": true,
+          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+          "qTotalMode": "TOTAL_OFF",
+          "qReferencedExpression": {}
+        },
+        "qOtherLabel": {},
+        "qTotalLabel": {
+          "qv": "Totais"
+        },
+        "qCalcCond": {},
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "othersLabel": "Outros"
+      }
+    ],
+    "qMeasures": [
+      {
+        "qDef": {
+          "qLabel": "Negócio",
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "=If(NEGOCIO <> 'DIF. 1ª',if(Dimensionality() =3, 'Total',   if(Dimensionality() =2, Empresa & ' - '& If(NEGOCIO <> 'DIF. 1ª',   If(NEGOCIO = 'Intercia Argentina', 'Intercompany',QUALIDADE )),   if(Dimensionality() =1, Empresa ,  NEGOCIO))))",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 10,
+            "qUseThou": 0
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "pMHq",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0), RGB(223,223,223))\r\n\n",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='black'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-start'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality()<=3, $(TextFormat))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "SUM(IF(TRANSACAO='FAT' AND  NEGOCIO <> 'DIF. 1ª',QTD_MMAA_ANT))/1000",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "#.##0",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "qLabelExpression": "=$(NomMesAno) & $(cAnoAnterior)",
+          "autoSort": true,
+          "cId": "nQVbmwc",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          },
+          "isCustomFormatted": false
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0),\r\n   if(Dimensionality()=3,RGB(223,223,223)))\n\n//=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality() =3, 'bold', 'normal')",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "PO",
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "/* No cabecalho como titulo eh utilizado padrao \"PO\", temporariamente o titulo está como \"CR\" */ =SUM( IF(NEGOCIO <> 'DIF. 1ª', VOL_PO))",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "#.##0",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "hTUJt",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          },
+          "isCustomFormatted": false
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality() =3, 'bold', 'normal')",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "CART",
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "=SUM(IF(TRANSACAO='PED' and NEGOCIO <> 'DIF. 1ª',QTD_MES-VOL_ANTEC_MES_MENOS1+VOL_ATRASO+VOL_ANTEC_MES_MAIS1))/1000",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "#.##0",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "SujsvCB",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          },
+          "isCustomFormatted": false
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality() =3, 'bold', 'normal')",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "SUM(IF(TRANSACAO='FAT' AND NEGOCIO <> 'DIF. 1ª',QTD_MESFCH_ANT))/1000",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "#.##0",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "qLabelExpression": "=$(NomMesAnter) & $(AnoMesAnter)",
+          "autoSort": true,
+          "cId": "mZsrmqJ",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          },
+          "isCustomFormatted": false
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality() =3, 'bold', 'normal')",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "FAT",
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "SUM(IF(TRANSACAO='FAT' AND  NEGOCIO <> 'DIF. 1ª',QTD_MES))/1000",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "#.##0",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "XT",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          },
+          "isCustomFormatted": false
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality() =3, 'bold', 'normal')",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "C x PO",
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "= SUM(IF(TRANSACAO='PED' and NEGOCIO <> 'DIF. 1ª',QTD_MES-VOL_ANTEC_MES_MENOS1+VOL_ATRASO+VOL_ANTEC_MES_MAIS1))/1000 / SUM( IF(NEGOCIO <> 'DIF. 1ª', VOL_PO))  /* usado ate 24/01/2022  =if((SUM(IF(TRANSACAO='PED' and NEGOCIO <> 'DIF. 1ª',QTD_MES-VOL_ANTEC_",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "0%",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "JvPPLGP",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          },
+          "isCustomFormatted": false
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality() =3, 'bold', 'normal')",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "DEV",
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "SUM(IF(TRANSACAO='FAT' AND  NEGOCIO <> 'DIF. 1ª',DEV_MES))/1000",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "#.##0",
+            "qDec": ",",
+            "qThou": "."
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "ACCWN",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          },
+          "isCustomFormatted": false
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=if(Dimensionality() =3, 'bold', 'normal')",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "=Dimensionality()",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 10,
+            "qUseThou": 0
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "EZMWCnh",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "=1",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 10,
+            "qUseThou": 0
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "jcdrp",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "=2+1",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 10,
+            "qUseThou": 0
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "UppDDq",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),'V', 'M')",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 10,
+            "qUseThou": 0
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "FPRCeLy",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(Dimensionality() =1 or (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),rgb(255,255,0), RGB(223,223,223))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      },
+      {
+        "qDef": {
+          "qTags": [],
+          "qGrouping": "N",
+          "qDef": "=if(if(Dimensionality() =1 or  (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),1,2)\r\n=1,rgb(255,255,0))",
+          "qNumFormat": {
+            "qType": "U",
+            "qnDec": 10,
+            "qUseThou": 0
+          },
+          "qAccumulate": 0,
+          "qActiveExpression": 0,
+          "qExpressions": [],
+          "autoSort": true,
+          "cId": "KqDnSt",
+          "numFormatFromTemplate": true,
+          "textAlign": {
+            "auto": true,
+            "align": "left"
+          }
+        },
+        "qSortBy": {
+          "qSortByNumeric": -1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+        },
+        "qAttributeExpressions": [
+          {
+            "qExpression": "=if(if(Dimensionality() =1 or  (Dimensionality() =2 and QUALIDADE ='1ª' and Empresa='Brasil' and NEGOCIO <> 'Intercia Argentina'),1,2) =1,rgb(255,255,0))",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='false'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='fas fa-briefcase'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='right'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "='flex-end'",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          },
+          {
+            "qExpression": "=''",
+            "qAttribute": true
+          }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCond": {},
+        "qCalcCondition": {
+          "qCond": {
+            "qv": "=''"
+          },
+          "qMsg": {}
+        },
+        "qTrendLines": [],
+        "qMiniChartDef": {
+          "qSortBy": {
+            "qExpression": {}
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {},
+            "qOtherLimit": {},
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qMaxNumberPoints": -1,
+          "qAttributeExpressions": []
+        }
+      }
+    ],
+    "qInterColumnSortOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    "qSuppressMissing": true,
+    "qInitialDataFetch": [
+      {
+        "qLeft": 0,
+        "qTop": 0,
+        "qWidth": 2000,
+        "qHeight": 2000
+      }
+    ],
+    "qReductionMode": "N",
+    "qMode": "P",
+    "qPseudoDimPos": -1,
+    "qNoOfLeftDims": 5,
+    "qAlwaysFullyExpanded": true,
+    "qMaxStackedCells": 5000,
+    "qCalcCond": {},
+    "qTitle": {},
+    "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+    },
+    "qColumnOrder": [],
+    "qExpansionState": [
+      {
+        "qPos": {
+          "qDimName": "Empresa",
+          "qElemNo": [
+            0
+          ],
+          "qElemValues": [
+            "BEJyYXNpbAA="
+          ]
+        }
+      },
+      {
+        "qPos": {
+          "qDimName": "=If(NEGOCIO <> 'DIF. 1ª',   If(NEGOCIO = 'Intercia Argentina', 'InCia',QUALIDADE ))",
+          "qElemNo": [],
+          "qElemValues": []
+        }
+      },
+      {
+        "qPos": {
+          "qDimName": "=If(CUSTOMER_GROUP='GRAFA','ME',CUSTOMER_GROUP)",
+          "qElemNo": [],
+          "qElemValues": []
+        }
+      },
+      {
+        "qPos": {
+          "qDimName": "=If(NEGOCIO<>'DIF. 1ª',NEGOCIO)",
+          "qElemNo": [],
+          "qElemValues": []
+        }
+      }
+    ],
+    "qDynamicScript": [],
+    "stateInterColumnSortOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      -1
+    ],
+    "columnWidths": [
+      [],
+      [
+        null,
+        55,
+        56,
+        56,
+        null
+      ]
+    ],
+    "qLayoutExclude": {
+      "qHyperCubeDef": {
+        "qDimensions": [
+          {
+            "qDef": {
+              "qGrouping": "N",
+              "qFieldDefs": [
+                "Dimensionality()"
+              ],
+              "qFieldLabels": [
+                ""
+              ],
+              "qSortCriterias": [
+                {
+                  "qSortByLoadOrder": 1,
+                  "qExpression": {}
+                }
+              ],
+              "qNumberPresentations": [],
+              "qActiveField": 0,
+              "autoSort": true,
+              "cId": "VeKEvKm",
+              "othersLabel": "Outros",
+              "textAlign": {
+                "auto": true,
+                "align": "left"
+              }
+            },
+            "qOtherTotalSpec": {
+              "qOtherMode": "OTHER_OFF",
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping": true,
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qTotalMode": "TOTAL_OFF",
+              "qReferencedExpression": {}
+            },
+            "qOtherLabel": {},
+            "qTotalLabel": {
+              "qv": "Totais"
+            },
+            "qCalcCond": {},
+            "qAttributeExpressions": [
+              {
+                "qExpression": "=''"
+              },
+              {
+                "qExpression": "=''"
+              },
+              {
+                "qExpression": "=''"
+              },
+              {
+                "qExpression": "=''"
+              },
+              {
+                "qExpression": "=''"
+              },
+              {
+                "qExpression": "=''"
+              },
+              {
+                "qExpression": "=''"
+              },
+              {
+                "qExpression": "=''"
+              }
+            ],
+            "qAttributeDimensions": [],
+            "qCalcCondition": {
+              "qCond": {
+                "qv": "=''"
+              },
+              "qMsg": {}
+            },
+            "othersLabel": "Outros"
+          }
+        ],
+        "qMeasures": [],
+        "qInterColumnSortOrder": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "qInitialDataFetch": [],
+        "qReductionMode": "N",
+        "qMode": "S",
+        "qPseudoDimPos": -1,
+        "qNoOfLeftDims": -1,
+        "qMaxStackedCells": 5000,
+        "qCalcCond": {},
+        "qTitle": {},
+        "qCalcCondition": {
+          "qCond": {},
+          "qMsg": {}
+        },
+        "qColumnOrder": [],
+        "qExpansionState": [],
+        "qDynamicScript": []
+      }
+    }
+  }
+}

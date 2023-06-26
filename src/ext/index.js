@@ -1,0 +1,18 @@
+import propertyPanelDefinition from './property-panel';
+
+export default function ext(env) {
+  return {
+    support: {
+      // TODO Most of the code is in place to enable snapshot, however WYSIWYG is not always true. Depending on the scroll position, some cell that where visible when the screenshot was taken, is not fully visiable in the screenshot.
+      // This should be fixed, possibly be figuring out how much of a cell is in view and then in the snapshot scroll that cell into view by the same amount.
+      cssScaling: false,
+      snapshot: false,
+      export: true,
+      sharing: false,
+      exportData: true,
+      viewData: true,
+    },
+    usePropertyHandler: 'pivot-data',
+    definition: propertyPanelDefinition(env),
+  };
+}
