@@ -1,5 +1,7 @@
 # pivotReport
 
+Basic Qlik Sense extension using nebulaJs 
+
 ## Usage
 
 ```js
